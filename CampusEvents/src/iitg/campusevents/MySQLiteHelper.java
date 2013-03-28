@@ -6,9 +6,13 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 public class MySQLiteHelper extends SQLiteOpenHelper{
-	public static final String TABLE_COMMENTS = "comments";
-	public static final String COLUMN_ID = "_id";
-	public static final String COLUMN_COMMENT = "comment";
+	public static final String TABLE_EVENTS = "events";
+	public static final String COLUMN_ID = "eventId";
+	public static final String STARTTIME = "startTime";
+	public static final String ENDTIME = "startTime";
+	public static final String MODIFIEDTIME = "startTime";
+	public static final String TITLE = "startTime";
+	
 
 	private static final String DATABASE_NAME = "commments.db";
 	private static final int DATABASE_VERSION = 1;
